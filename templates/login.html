@@ -1,0 +1,2 @@
+{% extends "base.html" %}{% block title %}Login · CampusLearn{% endblock %}{% block content %}
+<div class="auth"><span class="tag">WELCOME BACK</span><h1>Login</h1><p>Sign in to your learning space.</p><form method="post" class="form"><label>Email<input type="email" name="email" required></label><label>Password<input type="password" name="password" required></label><button class="btn" type="submit">Login</button></form><p>Don't have an account? <a href="{{ url_for('register') }}">Register</a></p></div>{% endblock %}

@@ -1,0 +1,3 @@
+{% extends "base.html" %}{% block title %}Admin dashboard{% endblock %}{% block content %}
+<div class="page-title"><div><span class="tag">ADMIN</span><h1>Platform overview</h1><p>Users and course summary.</p></div></div><div class="stats"><div><small>Total users</small><strong>{{ users|length }}</strong></div><div><small>Total courses</small><strong>{{ course_count }}</strong></div><div><small>Role</small><strong>Admin</strong></div></div>
+<div class="table-wrap"><table><thead><tr><th>Name</th><th>Email</th><th>Role</th></tr></thead><tbody>{% for u in users %}<tr><td>{{ u.full_name }}</td><td>{{ u.email }}</td><td>{{ u.role }}</td></tr>{% endfor %}</tbody></table></div>{% endblock %}
