@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CampusLearn LMS — Flask + MySQL Connector
 
 A simple DBMS project built using Python Flask, `mysql-connector-python`, HTML and CSS. It uses the schema from the provided LMS database ZIP (`database/setup.sql`).
@@ -43,3 +44,6 @@ A simple DBMS project built using Python Flask, `mysql-connector-python`, HTML a
 - For real deployment, add CSRF protection, HTTPS, and disable Flask debug mode.
 - Course material links are stored in the database; this starter app does not upload files.
 - SQL operations use `%s` parameters with MySQL Connector.
+=======
+# LMS-dbms-project
+>>>>>>> 60dec76fd989f17baceec324ca3b6b3892fbbb7e
